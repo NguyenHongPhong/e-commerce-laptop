@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce-laptop",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenHongPhong/e-commerce-laptop.git"
+  },
+  "author": "phong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenHongPhong/e-commerce-laptop/issues"
+  },
+  "homepage": "https://github.com/NguyenHongPhong/e-commerce-laptop#readme",
+  "description": "",
+  "dependencies": {
+    "express": "5.0.1"
+  }
+}
