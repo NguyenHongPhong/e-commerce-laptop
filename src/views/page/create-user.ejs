@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../head/head'); %>
+</head>
+
+<body class="container">
+
+    <header>
+        <%- include('../header/header'); %>
+    </header>
+
+    <form class="containerIsMine" action="/handle-create-user" method="POST">
+        <div class="mb-3">
+            <label class="form-label">Name </label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email </label>
+            <input type="email" class="form-control" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Address</label>
+            <textarea class="form-control" rows="2"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </div>
+    </form>
+
+    <footer>
+        <%- include('../footer/footer'); %>
+    </footer>
+
+</body>
+
+</html>
+Save the changes to this file and then run the application:
